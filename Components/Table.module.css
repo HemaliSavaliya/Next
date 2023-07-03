@@ -1,0 +1,59 @@
+.popup {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.m5 {
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.saveBtn {
+    background: black;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    width: 100%;
+}
+
+.addNote {
+    background: black;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+}
+
+.unarchive {
+    font-weight: 300;
+    width: 100px;
+    border-radius: 5px;
+    background: #eeeeee;
+    border: none;
+    padding: 5px 20px 5px 20px;
+    color: #727272;
+    cursor: pointer;
+}
+
+.archive {
+    width: 100px;
+    font-weight: 300;
+    border-radius: 5px;
+    background: #edfbf9;
+    border: none;
+    padding: 5px 20px 5px 20px;
+    color: #3cd0c1;
+    cursor: pointer;
+}
+
+.border {
+    border-bottom: 1px solid grey;
+    margin: 6px 0px 6px 0px;
+}
+
+.close {
+    position: absolute;
+    background: none;
+    border: none;
+    left: 90%;
+}

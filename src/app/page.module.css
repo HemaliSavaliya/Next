@@ -1,0 +1,48 @@
+/* .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+} */
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid gray;
+  padding: 15px;
+}
+
+.button {
+  background: black;
+  color: white;
+  padding: 5px 20px 5px 20px;
+}
+
+.title {
+  color: black;
+  font-weight: 700;
+  padding: 14px;
+  font-size: 20px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: 700;
+}
+
+#basic-menu ul {
+  width: 150px;
+}
+
+#basic-menu ul li:hover {
+  background: aliceblue;
+}
+
+#basic-button{
+  cursor: pointer;
+}
